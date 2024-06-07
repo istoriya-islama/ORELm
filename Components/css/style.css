@@ -17,7 +17,7 @@ a{
     border-radius: 6px;
     width: 92px;
     height: 92px;
-    margin-left: 50%;
+    margin-left: 30%;
     margin-top: 1%;
 }
 .kart{
@@ -25,14 +25,14 @@ a{
     width: 352px;
     height: 384px;
     background: linear-gradient(180deg, #000 0%, #000a68 100%);
-    margin-left: 30%;
+    margin-left: 15%;
     margin-top: 2%;
 }
 .kart img{
     border-radius: 6px;
     width: 92px;
     height: 92px;
-    margin-left: 2%;
+    margin-left: 5%;
     margin-top: 1%;
 }
 .kart h2{
@@ -64,30 +64,11 @@ a{
     margin: 0 20px 20px 20px;
     font-size: 15px;
 }
-header{
-    width: 100%;
-    height: 60px;
-    background-color: #3a3a3a;
-    margin-top: 4%;
-}
-header nav{
-    width: 228px;
-    height: 60px;
-    margin-left: 40%;
-}
-header nav ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-}
-header nav ul .v{
-    margin-top: 10px;
-}
 .textu{
     width: 343px;
     height: 463px;
     background: linear-gradient(180deg, #000 0%, #000a68 100%);
-    margin-left: 30%;
+    margin-left: 15%;
     border-radius: 20px;
 }
 .textu img{
