@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Alegreya' sans-serif;
+    color: white;
+    background: linear-gradient(180deg, #000 0%, #000a68 100%);
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.logo img{
+    border-radius: 6px;
+    width: 92px;
+    height: 92px;
+    margin-left: 40%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.kart{
+    border-radius: 20px;
+    width: 35%;
+    height: 40%;
+    background: linear-gradient(180deg, #000 0%, #000a68 100%);
+    margin-left: 40%;
+    margin-top: -90%;
+}
+.kart img{
+    border-radius: 6px;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.kart h2{
+    font-weight: 800;
+    font-size: 15px;
+    float: right;
+    margin-top: 12%;
+    margin-right: 8%;
+}
+.kart p{
+    margin-left: 4%;
+    margin-top: 10%;
+    font-size: 10px;
+}
+.kart .btnSeelAll{
+    margin-left: 5%;
+    margin-top: 50%;
+    margin-bottom: 10%;
+    border: 2px;
+    background-color: #000;
+    width: 136px;
+    height: 41px;
+    border-radius: 30px;
+}
+.kart .btnSeelAll:active{
+    background-color: #535353;
+}
+.kart .text{
+    font-size: 15px;
+    margin-top: 110%;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #3a3a3a;
+    margin-top: 4%;
+}
+header nav{
+    width: 228px;
+    height: 60px;
+    margin-left: 20%;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul .prog{
+    margin-left: 60%;
+}
+header nav ul .home{
+    margin-left: 20%;
+}
+header nav ul .prog img{
+    height: 55px;
+    width: 55px;
+}
+.textu{
+    width: 300px;
+    height: 403px;
+    background: linear-gradient(180deg, #000 0%, #000a68 100%);
+    margin-left: 20%;
+    border-radius: 20px;
+    margin-right: 30%;
+}
+.textu img{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.textu h2{
+    font-weight: 800;
+    font-size: 30px;
+    margin-left: 20%;
+}
+.textu p{
+    margin-left: 4%;
+    white-space: pre;
+    margin-top: 2%;
+    margin-bottom: 20px;
+}
+.textu .p{
+    margin-left: 4%;
+    white-space: pre;
+    margin-top: 2%;
+    margin-bottom: 15px;
+}
+.textu .btnD{
+    margin-left: 30%;
+    margin-top: 2%;
+    border: 2px;
+    background-color: #000;
+    width: 136px;
+    height: 41px;
+    border-radius: 30px;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 100%;
+}
+.textu .btnDow{
+    margin-left: 30%;
+    margin-top: -6%;
+    border: 2px;
+    background-color: #252525;
+    width: 136px;
+    height: 41px;
+    border-radius: 30px;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.textu .btnDow img{
+    height: 100%;
+    margin-right: 10px;
+}
+.textu .btnSeelAll:active{
+    background-color: #535353;
+}
+.textu .texti{
+    margin: 0 20px 20px 20px;
+    font-size: 15px;
+}
+.telefon{
+    margin-top: 1%;
+}
+.telefon img{
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
